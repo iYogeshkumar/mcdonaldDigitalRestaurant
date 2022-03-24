@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McDonald's</title>
+    <link rel="icon" type="image/x-icon" href="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/favicon.ico">
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div>
+        <img src="./images/macd.png" alt="">
+        <h1 id="ready">Welcome to <span>McDonald's</span> Virtual Restaurent</h1>
+      </div>
+      <div id="food">
+        <h2>McDonald's Menu</h2>
+        <form id="form">
+            <input class="check" type="checkbox" id="fries" name="fries" value="fries" />
+            <label for="fries">Fries</label><br />
+
+            <input class="check" type="checkbox" id="burger" name="burger" value="burger" />
+            <label for="burger">Chicken Burger</label><br />
+
+        
+           
+           
+                <input class="check" type="checkbox" id="coke" name="coke" value="coke" />
+                <label for="coke"> Coke</label><br />
+                
+               
+            <input class="check" type="checkbox" id="sandwich" name="sandwich" value="sandwich" />
+            <label for="sandwich">Sandwich</label><br /> 
+
+           
+         
+
+          <input id="submit" type="submit" value="Order Food" />
+        </form>
+      </div>
+      <div class="watch"></div>
+      <div class="items"></div>
+      <div class="reject"></div>
+      <div id="times"></div>    
+    </div>
+    <script src="./script/index.js"></script>
+  </body>
+</html>
